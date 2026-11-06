@@ -1,0 +1,90 @@
+{
+  "status": "CONCEPTUAL - NOT FOR CONSTRUCTION",
+  "connected_va": 10020,
+  "demand_factor": 1,
+  "demand_va": 10020,
+  "phase_va": {
+    "A": 2640,
+    "B": 3840,
+    "C": 3540
+  },
+  "phase_current_a": {
+    "A": 22.0,
+    "B": 32.0,
+    "C": 29.5
+  },
+  "equipment_assumptions": [
+    [
+      1,
+      "Lighting: open office",
+      240,
+      "L01-L06"
+    ],
+    [
+      2,
+      "Open office receptacles",
+      900,
+      "R01-R05"
+    ],
+    [
+      3,
+      "Lighting: reception + conference",
+      240,
+      "L07-L12"
+    ],
+    [
+      4,
+      "Open office receptacles",
+      900,
+      "R06-R10"
+    ],
+    [
+      5,
+      "Lighting: kitchen + washroom",
+      120,
+      "L13-L15"
+    ],
+    [
+      6,
+      "Reception / conference receptacles",
+      900,
+      "R11-R15"
+    ],
+    [
+      7,
+      "Kitchen / washroom receptacles",
+      900,
+      "R16-R20"
+    ],
+    [
+      8,
+      "Refrigerator - assumed",
+      600,
+      "EQ01"
+    ],
+    [
+      9,
+      "Microwave - assumed",
+      1500,
+      "EQ02"
+    ],
+    [
+      10,
+      "Dishwasher - assumed",
+      1200,
+      "EQ03"
+    ],
+    [
+      11,
+      "HVAC terminal - assumed 120 V",
+      2400,
+      "EQ04"
+    ],
+    [
+      12,
+      "Washroom exhaust - assumed",
+      120,
+      "EQ05"
+    ]
+  ]
+}

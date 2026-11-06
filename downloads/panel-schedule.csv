@@ -1,0 +1,13 @@
+Circuit,Phase,Description,Device IDs,Connected VA,Demand factor,Demand VA,Branch V,Estimated A,Breaker,Conductor
+1,A,Lighting: open office,L01-L06,240,1,240,120,2.0,Requires review,Requires review
+2,A,Open office receptacles,R01-R05,900,1,900,120,7.5,Requires review,Requires review
+3,B,Lighting: reception + conference,L07-L12,240,1,240,120,2.0,Requires review,Requires review
+4,B,Open office receptacles,R06-R10,900,1,900,120,7.5,Requires review,Requires review
+5,C,Lighting: kitchen + washroom,L13-L15,120,1,120,120,1.0,Requires review,Requires review
+6,C,Reception / conference receptacles,R11-R15,900,1,900,120,7.5,Requires review,Requires review
+7,A,Kitchen / washroom receptacles,R16-R20,900,1,900,120,7.5,Requires review,Requires review
+8,A,Refrigerator - assumed,EQ01,600,1,600,120,5.0,Requires review,Requires review
+9,B,Microwave - assumed,EQ02,1500,1,1500,120,12.5,Requires review,Requires review
+10,B,Dishwasher - assumed,EQ03,1200,1,1200,120,10.0,Requires review,Requires review
+11,C,HVAC terminal - assumed 120 V,EQ04,2400,1,2400,120,20.0,Requires review,Requires review
+12,C,Washroom exhaust - assumed,EQ05,120,1,120,120,1.0,Requires review,Requires review

@@ -19,3 +19,7 @@ Open `index.html` in a browser. No installation or build is required.
 ## Hosting
 
 Hosted on GitHub Pages from the main branch root.
+
+## Commercial office drawing package
+
+Project 01 now includes a five-sheet conceptual PDF, four editable DXF sheets, panel and device CSVs, load JSON, Python generator and automated checks. See [study documentation](office-study/README.md) and [drawing set](downloads/commercial-office-drawing-set.pdf). AutoCAD application review and engineering/code review remain open.
