@@ -39,7 +39,7 @@ def base(d):
     d.line((32,18),(32,21),'A-DOORS');d.line((32,21),(35,18),'A-DOORS',dash=True)
     # Kitchen opening is in the horizontal wall.
     for a,b in [((30,18),(32,18)),((35,18),(40,18))]:d.line(a,b)
-    for x,y,s in [(1,28,'RECEPTION | 18 x 12 ft'),(19,28,'CONFERENCE | 12 x 12 ft'),(31,28,'KITCHEN | 10 x 12 ft'),(31,17.5,'WASHROOM | 10 x 6 ft'),(3,16,'OPEN OFFICE | 30 x 18 ft'),(31,4,'CIRCULATION / PANEL')]:d.text(x,y,s,7)
+    for x,y,s in [(1,29.2,'RECEPTION | 18 x 12 ft'),(19,29.2,'CONFERENCE | 12 x 12 ft'),(31,29.2,'KITCHEN | 10 x 12 ft'),(31,17.5,'WASHROOM | 10 x 6 ft'),(3,16,'OPEN OFFICE | 30 x 18 ft'),(31,4,'CIRCULATION / PANEL')]:d.text(x,y,s,7)
     d.rect(38,3,1,2,'E-POWER');d.text(34,2,'LP-1',8)
     d.line((0,31),(40,31),'E-TEXT');d.text(17,31.2,'40 ft',9);d.text(-2,14,'30 ft',8)
     d.text(0,-3,'MODEL: 1 unit = 1 ft | Print scale 17 pt/ft at 17 x 11 in | Dimensioned geometry governs',8)
